@@ -60,6 +60,7 @@ nav{
         .profile__info{
             font-size: 18px;
             line-height: 22px;
+            font-weight: 500;
         }
         span{
             color: #828282;
@@ -77,6 +78,30 @@ nav{
     }
 }
 
+
+#About-me{
+    margin-top: 104px;
+    background-color: #F6F6F6;
+    .About{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        padding: 120px 0 107px 0;
+        h1{
+            font-size: 34px;
+            line-height: 42px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 500;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
 
 .wrapper{
     height: 100%;
