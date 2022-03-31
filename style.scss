@@ -1,4 +1,4 @@
-*,*:before,*:after{
+*, *:before, *:after {
 	padding: 0;
 	margin: 0;
     font-family: "Gilroy";
@@ -6,75 +6,88 @@
 	list-style-type: none;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-padding-top: 88px;
 }
-body{
-}
-header{
+
+header {
     position: sticky;
     top:0%;
     height: 88px;
     width: 100%;
     background-color: #ffff;
     z-index: 99;
-
 }
-nav{
-    hr{
+
+nav {
+    hr {
         color: #828282;
         height: 1px;
         background-color: #828282;
         border: none;
         transform: matrix(1, 0, 0, 1, 0, 0);
     }
-    ul{
+
+    ul {
         height: 100%;
         display: flex;
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
-        a{
+
+        a {
             color: #828282;
             font-weight: bold;
             font-size: 18px;
             line-height: 22px;
         }
-        .active{
+
+        .active {
             color: black;
         }
+
     }
+
 }
-#Home{
+#Home {
     margin-top: 20px;
-    .profile{
+
+    .profile {
         display: flex;
         justify-content: space-between;
         align-items: end;
-        .profile__name{
+
+        .profile__name {
             font-weight: bold;
             font-size: 47.3392px;
             line-height: 59px;
             translate: 0 13px;
         }
-        .profile__info{
+
+        .profile__info {
             font-size: 18px;
             line-height: 22px;
         }
-        span{
+
+        span {
             color: #828282;
         }
-        .profile__leng{
+
+        .profile__leng {
             transform: rotate(-90deg) translateY(26px) translateX(25px);
             font-weight: bold;
             font-size: 16px;
             line-height: 20px;
         }
+
     }
-    .home__img{
+
+    .home__img {
         margin-top: 50px;
         width: 100%;
     }
+
 }
 
 
