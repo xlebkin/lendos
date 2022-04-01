@@ -139,13 +139,9 @@ nav ul .active {
   margin-bottom: 20px;
 }
 
-#Skills {
-  margin-top: 91px;
-  margin-bottom: 110px;
-}
-
 #Skills .opportunities {
   text-align: center;
+  padding-top: 91px;
 }
 
 #Skills .opportunities h1 {
@@ -180,6 +176,53 @@ nav ul .active {
   line-height: 17px;
   font-weight: bold;
   color: #828282;
+}
+
+#Portfolio {
+  margin-top: 110px;
+  background-color: #F6F6F6;
+}
+
+#Portfolio .opportunities {
+  text-align: center;
+  padding: 112px 0 47px 0;
+}
+
+#Portfolio .elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+#Portfolio .elements .elements__elem img {
+  width: 900px;
+}
+
+#Portfolio .elements .elements__elem img:hover {
+  width: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#Portfolio .elements .elements__elem p {
+  padding: 45px 0 99px 0;
+}
+
+#Portfolio .elements .elements__elem .elem-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #070707;
 }
 
 .wrapper {

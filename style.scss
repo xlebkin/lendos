@@ -118,11 +118,10 @@ nav {
 }
 
 #Skills {
-	margin-top: 91px;
-	margin-bottom: 110px;
 
 	.opportunities {
 		text-align: center;
+		padding-top: 91px;
 
 		h1 {
 			font-size: 34px;
@@ -151,6 +150,47 @@ nav {
 				line-height: 17px;
 				font-weight: bold;
 				color: #828282;
+			}
+		}
+	}
+}
+
+#Portfolio {
+	margin-top: 110px;
+	background-color: #F6F6F6;
+
+	.opportunities {
+		text-align: center;
+		padding: 112px 0 47px 0;
+	}
+
+	.elements {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		text-align: center;
+
+		.elements__elem {
+
+			img {
+				width: 900px;
+			}
+
+			img:hover {
+				width: 100%;
+				transition: all 1s;
+			}
+
+			p {
+				padding: 45px 0 99px 0;
+			}
+
+			.elem-text {
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 22px;
+				text-decoration-line: underline;
+				color: #070707;
 			}
 		}
 	}
