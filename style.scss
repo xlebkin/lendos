@@ -107,7 +107,7 @@ nav {
 			font-weight: bold;
 		}
 
-		p{
+		p {
 			font-size: 18px;
 			line-height: 22px;
 			font-weight: 500;
@@ -117,9 +117,47 @@ nav {
 	}
 }
 
+#Skills {
+	margin-top: 91px;
+	margin-bottom: 110px;
 
-.wrapper{
-    height: 100%;
-    margin: 0 auto;
-    width: 940px;
+	.opportunities {
+		text-align: center;
+
+		h1 {
+			font-size: 34px;
+			line-height: 42px;
+			font-weight: bold;
+		}
+
+		p {
+			font-size: 18px;
+			line-height: 22px;
+			font-weight: 500;
+			padding: 69px 0 83px 0;
+		}
+	}
+
+	.items {
+		display: flex;
+		justify-content: space-between;
+
+		.items__item {
+			width: 166px;
+
+			p {
+				padding: 24px 0 40px 0;
+				font-size: 14px;
+				line-height: 17px;
+				font-weight: bold;
+				color: #828282;
+			}
+		}
+	}
+}
+
+.wrapper {
+	height: 100%;
+	margin: 0 auto;
+	width: 940px;
 }
