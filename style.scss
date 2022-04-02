@@ -11,6 +11,10 @@ html {
 	scroll-padding-top: 88px;
 }
 
+body {
+	color: #070707;
+}
+
 header {
 	position: sticky;
 	top:0%;
@@ -197,6 +201,98 @@ nav {
 				line-height: 22px;
 				text-decoration-line: underline;
 				color: #070707;
+			}
+		}
+	}
+}
+
+#Contacts {
+
+	.info {
+		text-align: center;
+		padding: 114px 0 123px 0;
+
+		h1 {
+			font-weight: bold;
+			font-size: 34px;
+			line-height: 42px;
+			padding-bottom: 20px;
+		}
+
+		p {
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 22px;
+			padding-bottom: 29px;
+		}
+
+		.btn {
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 22px;
+			color: #FFFFFF;
+			background: #070707;
+			padding: 13px 29px;
+			border-radius: 25px;
+		}
+
+		.social {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 342px;
+			margin: auto;
+			padding: 85px 0 45px 0;
+			
+			.instagramm {
+				background: url(img/instagramm.svg) center top no-repeat;
+				height: 40px;
+				width: 40px;
+			}
+			
+			.instagramm:hover {
+				background: url(img/instagramm-color.svg) center bottom no-repeat;
+			}
+
+			.telegramm {
+				background: url(img/telegramm.svg) center top no-repeat;
+				height: 40px;
+				width: 40px;
+			}
+
+			.telegramm:hover {
+				background: url(img/telegramm-color.svg) center bottom no-repeat;
+			}
+
+			.vk {
+				background: url(img/vk.svg) center top no-repeat;
+				height: 40px;
+				width: 40px;
+			}
+
+			.vk:hover {
+				background: url(img/vk-color.svg) center bottom no-repeat;
+			}
+
+			.discord {
+				background: url(img/discord.svg) center top no-repeat;
+				height: 40px;
+				width: 40px;
+			}
+
+			.discord:hover {
+				background: url(img/discord-color.svg) center bottom no-repeat;
+			}
+			
+		}
+
+		.wish {
+			color: #828282;
+
+			p {
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 17px;
 			}
 		}
 	}

@@ -12,6 +12,10 @@ html {
   scroll-padding-top: 88px;
 }
 
+body {
+  color: #070707;
+}
+
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -229,6 +233,100 @@ nav ul .active {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #070707;
+}
+
+#Contacts .info {
+  text-align: center;
+  padding: 114px 0 123px 0;
+}
+
+#Contacts .info h1 {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  padding-bottom: 20px;
+}
+
+#Contacts .info p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 29px;
+}
+
+#Contacts .info .btn {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #070707;
+  padding: 13px 29px;
+  border-radius: 25px;
+}
+
+#Contacts .info .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 342px;
+  margin: auto;
+  padding: 85px 0 45px 0;
+}
+
+#Contacts .info .social .instagramm {
+  background: url(img/instagramm.svg) center top no-repeat;
+  height: 40px;
+  width: 40px;
+}
+
+#Contacts .info .social .instagramm:hover {
+  background: url(img/instagramm-color.svg) center bottom no-repeat;
+}
+
+#Contacts .info .social .telegramm {
+  background: url(img/telegramm.svg) center top no-repeat;
+  height: 40px;
+  width: 40px;
+}
+
+#Contacts .info .social .telegramm:hover {
+  background: url(img/telegramm-color.svg) center bottom no-repeat;
+}
+
+#Contacts .info .social .vk {
+  background: url(img/vk.svg) center top no-repeat;
+  height: 40px;
+  width: 40px;
+}
+
+#Contacts .info .social .vk:hover {
+  background: url(img/vk-color.svg) center bottom no-repeat;
+}
+
+#Contacts .info .social .discord {
+  background: url(img/discord.svg) center top no-repeat;
+  height: 40px;
+  width: 40px;
+}
+
+#Contacts .info .social .discord:hover {
+  background: url(img/discord-color.svg) center bottom no-repeat;
+}
+
+#Contacts .info .wish {
+  color: #828282;
+}
+
+#Contacts .info .wish p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .wrapper {
