@@ -6,6 +6,7 @@
   list-style-type: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  cursor: default;
 }
 
 html {
@@ -192,7 +193,7 @@ nav ul .active {
   padding: 112px 0 47px 0;
 }
 
-#Portfolio .opportunities h2 {
+#Portfolio .opportunities h1 {
   font-weight: bold;
   font-size: 34px;
   line-height: 42px;
