@@ -85,7 +85,6 @@ nav ul .active {
 #Home .profile .profile__info {
   font-size: 18px;
   line-height: 22px;
-  font-weight: 500;
 }
 
 #Home .profile span {
@@ -125,7 +124,7 @@ nav ul .active {
   padding: 120px 0 107px 0;
 }
 
-#About-me .About h1 {
+#About-me .About h2 {
   font-size: 34px;
   line-height: 42px;
   font-weight: bold;
@@ -144,7 +143,7 @@ nav ul .active {
   padding-top: 91px;
 }
 
-#Skills .opportunities h1 {
+#Skills .opportunities h2 {
   font-size: 34px;
   line-height: 42px;
   font-weight: bold;
@@ -153,7 +152,6 @@ nav ul .active {
 #Skills .opportunities p {
   font-size: 18px;
   line-height: 22px;
-  font-weight: 500;
   padding: 69px 0 83px 0;
 }
 
@@ -167,7 +165,24 @@ nav ul .active {
 }
 
 #Skills .items .items__item {
-  width: 166px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Skills .items .items__item img {
+  max-height: 89px;
+  max-width: 89px;
 }
 
 #Skills .items .items__item p {
