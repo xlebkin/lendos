@@ -116,8 +116,58 @@ nav {
 }
 
 
+	.opportunities {
+		text-align: center;
+
+		h2 {
+			font-size: 34px;
+			line-height: 42px;
+			font-weight: bold;
+		}
+
+		p {
+			font-size: 18px;
+			line-height: 22px;
+			padding: 69px 0 83px 0;
+		}
+	}
+
+	.items {
+		display: flex;
+		justify-content: space-between;
+
+		.items__item {
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+			align-items: center;
+
+			img {
+				max-height: 89px;
+				max-width: 89px;
+			}
+
+			p {
+				padding: 24px 0 40px 0;
+				font-size: 14px;
+				line-height: 17px;
+				font-weight: bold;
+				color: #828282;
+			}
+
+			.stars {
+				margin-bottom: 0;
+				img {
+					padding: 4.5px;
+					width: 26px;
+				}
+			}
+		}
+	}
+}
+
 .wrapper {
-    height: 100%;
-    margin: 0 auto;
-    width: 940px;
+	height: 100%;
+	margin: 0 auto;
+	width: 940px;
 }

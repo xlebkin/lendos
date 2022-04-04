@@ -133,8 +133,77 @@ nav ul .active {
 #About-me .About p {
   font-size: 18px;
   line-height: 22px;
+  font-weight: 500;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#Skills {
+  margin-top: 91px;
+  margin-bottom: 110px;
+}
+
+#Skills .opportunities {
+  text-align: center;
+}
+
+#Skills .opportunities h2 {
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: bold;
+}
+
+#Skills .opportunities p {
+  font-size: 18px;
+  line-height: 22px;
+  padding: 69px 0 83px 0;
+}
+
+#Skills .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#Skills .items .items__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Skills .items .items__item img {
+  max-height: 89px;
+  max-width: 89px;
+}
+
+#Skills .items .items__item p {
+  padding: 24px 0 40px 0;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+  color: #828282;
+}
+
+#Skills .items .items__item .stars {
+  margin-bottom: 0;
+}
+
+#Skills .items .items__item .stars img {
+  padding: 4.5px;
+  width: 26px;
 }
 
 .wrapper {
