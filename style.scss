@@ -73,7 +73,6 @@ nav {
 		.profile__info {
 			font-size: 18px;
 			line-height: 22px;
-			font-weight: 500;
 		}
 
 		span {
@@ -115,7 +114,6 @@ nav {
 		p {
 			font-size: 18px;
 			line-height: 22px;
-			font-weight: 500;
 			margin-top: 20px;
 			margin-bottom: 20px;
 		}
@@ -137,7 +135,6 @@ nav {
 		p {
 			font-size: 18px;
 			line-height: 22px;
-			font-weight: 500;
 			padding: 69px 0 83px 0;
 		}
 	}
@@ -147,7 +144,15 @@ nav {
 		justify-content: space-between;
 
 		.items__item {
-			width: 166px;
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+			align-items: center;
+
+			img {
+				max-height: 89px;
+				max-width: 89px;
+			}
 
 			p {
 				padding: 24px 0 40px 0;
@@ -155,6 +160,14 @@ nav {
 				line-height: 17px;
 				font-weight: bold;
 				color: #828282;
+			}
+
+			.stars {
+				margin-bottom: 0;
+				img {
+					padding: 4.5px;
+					width: 26px;
+				}
 			}
 		}
 	}
