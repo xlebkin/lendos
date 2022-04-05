@@ -87,9 +87,12 @@ nav {
 		}
 	}
 
-	.home__img {
-		margin-top: 50px;
+	picture {
+
+		img {
+		padding-top: 50px;
 		width: 100%;
+		}
 	}
 }
 
@@ -312,6 +315,49 @@ nav {
 
 .wrapper {
 	height: 100%;
-	margin: 0 auto;
+	margin: auto;
 	width: 940px;
+}
+
+@media screen and (max-width: 400px){
+	
+	header {
+		display: none;
+	}
+
+	#Home {
+
+		.profile {
+			flex-direction: column;
+			align-items: flex-start;
+
+			.profile__info {
+				padding: 23px 0 37px;
+			}
+
+			.profile__leng {
+				display: none;
+			}
+		}
+
+		picture {
+
+			img {
+				padding-top: 0;
+			}
+		}
+	}
+
+	#About-me {
+		margin-top: 83px;
+
+		
+	}
+	
+	
+	.wrapper {
+		height: 100%;
+		margin: auto;
+		width: 316px;
+	}
 }

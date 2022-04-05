@@ -104,8 +104,8 @@ nav ul .active {
   line-height: 20px;
 }
 
-#Home .home__img {
-  margin-top: 50px;
+#Home picture img {
+  padding-top: 50px;
   width: 100%;
 }
 
@@ -352,7 +352,39 @@ nav ul .active {
 
 .wrapper {
   height: 100%;
-  margin: 0 auto;
+  margin: auto;
   width: 940px;
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    display: none;
+  }
+  #Home .profile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #Home .profile .profile__info {
+    padding: 23px 0 37px;
+  }
+  #Home .profile .profile__leng {
+    display: none;
+  }
+  #Home picture img {
+    padding-top: 0;
+  }
+  #About-me {
+    margin-top: 83px;
+  }
+  .wrapper {
+    height: 100%;
+    margin: auto;
+    width: 316px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
