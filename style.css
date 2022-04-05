@@ -303,44 +303,41 @@ nav ul .active {
   padding: 85px 0 45px 0;
 }
 
-#Contacts .info .social .instagramm {
-  background: url(img/instagramm.svg) center top no-repeat;
+#Contacts .info .social a {
   height: 40px;
   width: 40px;
+}
+
+#Contacts .info .social .instagramm {
+  background: url(img/instagramm.svg) center no-repeat;
 }
 
 #Contacts .info .social .instagramm:hover {
-  background: url(img/instagramm-color.svg) center bottom no-repeat;
+  background: url(img/instagramm-color.svg) center no-repeat;
 }
 
 #Contacts .info .social .telegramm {
-  background: url(img/telegramm.svg) center top no-repeat;
-  height: 40px;
-  width: 40px;
+  background: url(img/telegramm.svg) center no-repeat;
 }
 
 #Contacts .info .social .telegramm:hover {
-  background: url(img/telegramm-color.svg) center bottom no-repeat;
+  background: url(img/telegramm-color.svg) center no-repeat;
 }
 
 #Contacts .info .social .vk {
-  background: url(img/vk.svg) center top no-repeat;
-  height: 40px;
-  width: 40px;
+  background: url(img/vk.svg) center no-repeat;
 }
 
 #Contacts .info .social .vk:hover {
-  background: url(img/vk-color.svg) center bottom no-repeat;
+  background: url(img/vk-color.svg) center no-repeat;
 }
 
 #Contacts .info .social .discord {
-  background: url(img/discord.svg) center top no-repeat;
-  height: 40px;
-  width: 40px;
+  background: url(img/discord.svg) center no-repeat;
 }
 
 #Contacts .info .social .discord:hover {
-  background: url(img/discord-color.svg) center bottom no-repeat;
+  background: url(img/discord-color.svg) center no-repeat;
 }
 
 #Contacts .info .wish {
