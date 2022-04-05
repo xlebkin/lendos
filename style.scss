@@ -115,9 +115,11 @@ nav {
 	}
 }
 
+#Skills {
 
 	.opportunities {
 		text-align: center;
+		padding-top: 91px;
 
 		h2 {
 			font-size: 34px;
@@ -161,6 +163,53 @@ nav {
 					padding: 4.5px;
 					width: 26px;
 				}
+			}
+		}
+	}
+}
+
+#Portfolio {
+	margin-top: 110px;
+	background-color: #F6F6F6;
+
+	.opportunities {
+		text-align: center;
+		padding: 112px 0 47px 0;
+
+		h2 {
+			font-weight: bold;
+			font-size: 34px;
+			line-height: 42px;
+		}
+	}
+
+	.elements {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		text-align: center;
+
+		.elements__elem {
+
+			img {
+				width: 900px;
+			}
+
+			img:hover {
+				width: 100%;
+				transition: all 1s;
+			}
+
+			p {
+				padding: 45px 0 99px 0;
+			}
+
+			.elem-text {
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 22px;
+				text-decoration-line: underline;
+				color: #070707;
 			}
 		}
 	}
