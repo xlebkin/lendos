@@ -68,6 +68,10 @@ nav ul .active {
   margin-top: 20px;
 }
 
+#Home .burger {
+  display: none;
+}
+
 #Home .profile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82,8 +86,8 @@ nav ul .active {
 
 #Home .profile .profile__name {
   font-weight: bold;
-  font-size: 47.3392px;
-  line-height: 59px;
+  font-size: 47px;
+  line-height: 58px;
   translate: 0 13px;
 }
 
@@ -237,7 +241,7 @@ nav ul .active {
 }
 
 #Portfolio .elements .elements__elem img {
-  width: 920px;
+  width: 95%;
 }
 
 #Portfolio .elements .elements__elem img:hover {
@@ -285,7 +289,7 @@ nav ul .active {
   color: #FFFFFF;
   background: #070707;
   padding: 13px 29px;
-  border-radius: 25px;
+  border-radius: 50px;
 }
 
 #Contacts .info .social {
@@ -356,9 +360,20 @@ nav ul .active {
   width: 940px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
   header {
     display: none;
+  }
+  #Home {
+    margin-top: 64px;
+  }
+  #Home .burger {
+    display: block;
+    position: absolute;
+    width: 33px;
+    height: 19.19px;
+    left: 312px;
+    top: 68px;
   }
   #Home .profile {
     -webkit-box-orient: vertical;
@@ -380,6 +395,53 @@ nav ul .active {
   }
   #About-me {
     margin-top: 83px;
+  }
+  #About-me .About {
+    padding: 81px 0 76px 0;
+  }
+  #About-me .About p {
+    word-break: inherit;
+  }
+  #About-me .About p br {
+    display: none;
+  }
+  #Skills {
+    margin-top: 83px;
+    margin-bottom: 17px;
+  }
+  #Skills .opportunities p {
+    padding: 50px 0 71px 0;
+  }
+  #Skills .items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  #Skills .items .items__item {
+    padding-bottom: 81px;
+  }
+  #Portfolio {
+    margin: 81px 0 3px;
+  }
+  #Portfolio .opportunities {
+    padding-bottom: 65px;
+  }
+  #Portfolio .elements .elements__elem p {
+    padding: 33px 0 78px 0;
+  }
+  #Contacts {
+    margin: 82px 0 90px;
+  }
+  #Contacts .info p {
+    padding: 27px 0 40px;
+  }
+  #Contacts .info .btn {
+    padding: 10px 85px;
+    border-radius: 50px;
+  }
+  #Contacts .info .social {
+    width: 315px;
   }
   .wrapper {
     height: 100%;

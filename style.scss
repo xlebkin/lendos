@@ -54,9 +54,12 @@ nav {
 	}
 }
 
-
 #Home {
 	margin-top: 20px;
+
+	.burger {
+		display: none;
+	}
 
 	.profile {
 		display: flex;
@@ -65,8 +68,8 @@ nav {
 
 		.profile__name {
 			font-weight: bold;
-			font-size: 47.3392px;
-			line-height: 59px;
+			font-size: 47px;
+			line-height: 58px;
 			translate: 0 13px;
 		}
 
@@ -200,7 +203,7 @@ nav {
 		.elements__elem {
 
 			img {
-				width: 920px;
+				width: 95%;
 			}
 
 			img:hover {
@@ -250,7 +253,7 @@ nav {
 			color: #FFFFFF;
 			background: #070707;
 			padding: 13px 29px;
-			border-radius: 25px;
+			border-radius: 50px;
 		}
 
 		.social {
@@ -319,14 +322,24 @@ nav {
 	width: 940px;
 }
 
-@media screen and (max-width: 400px){
-	
+@media screen and (max-width: 375px){
 	header {
 		display: none;
 	}
 
 	#Home {
+		margin-top: 64px;
 
+		.burger {
+			display: block;
+			position: absolute;
+			width: 33px;
+			height: 19.19px;
+			left: 312px;
+			top: 68px;
+			
+		}
+		
 		.profile {
 			flex-direction: column;
 			align-items: flex-start;
@@ -351,9 +364,76 @@ nav {
 	#About-me {
 		margin-top: 83px;
 
-		
+		.About {
+			padding: 81px 0 76px 0;
+
+			p {
+				word-break: inherit;
+
+				br {
+					display: none;
+				}
+			}
+		}
 	}
 	
+	#Skills {
+		margin-top: 83px;
+		margin-bottom: 17px;
+
+		.opportunities {
+			
+			p {
+				padding: 50px 0 71px 0;
+			}
+		}
+
+		.items {
+			flex-flow: column wrap;
+
+			.items__item {
+				padding-bottom: 81px;
+			}
+		}
+	}
+
+	#Portfolio {
+		margin: 81px 0 3px;
+
+		.opportunities {
+			padding-bottom: 65px;
+		}
+
+		.elements {
+	
+			.elements__elem {
+	
+				p {
+					padding: 33px 0 78px 0;
+				}
+			}
+		}	
+	}
+
+	#Contacts {
+		margin: 82px 0 90px;
+
+		.info {
+
+			p {
+				padding: 27px 0 40px;
+			}
+
+			.btn {
+				padding: 10px 85px;
+				border-radius: 50px;
+			}
+
+			.social {
+				width: 315px;
+			}
+		}	
+	}
 	
 	.wrapper {
 		height: 100%;
