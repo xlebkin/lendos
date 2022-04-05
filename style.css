@@ -133,7 +133,6 @@ nav ul .active {
 #About-me .About p {
   font-size: 18px;
   line-height: 22px;
-  font-weight: 500;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -191,6 +190,15 @@ nav ul .active {
   line-height: 17px;
   font-weight: bold;
   color: #828282;
+}
+
+#Skills .items .items__item .stars {
+  margin-bottom: 0;
+}
+
+#Skills .items .items__item .stars img {
+  padding: 4.5px;
+  width: 26px;
 }
 
 #Portfolio {
