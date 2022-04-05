@@ -360,7 +360,7 @@ nav ul .active {
   width: 940px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 600px) {
   header {
     display: none;
   }
