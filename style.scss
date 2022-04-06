@@ -104,6 +104,11 @@ nav {
 #About-me {
 	margin-top: 104px;
 	background-color: #F6F6F6;
+	background: rgb(173,42,210);
+	background: linear-gradient(180deg, rgba(173,42,210,0.5508403190377713) 40%, rgba(0,212,255,0) 100%);
+	transition: 3s ease-in;
+	background-size: 100% 0%;
+	background-repeat: no-repeat;
 
 	.About {
 		display: flex;
@@ -125,6 +130,10 @@ nav {
 			margin-bottom: 20px;
 		}
 	}
+}
+
+#About-me:hover {
+	background-size: 100% 100%;
 }
 
 #Skills {
@@ -212,6 +221,11 @@ nav {
 
 			img:hover {
 				transform: scale(1.05);
+				transition: all 1s;
+			}
+
+			img:not(:hover) {
+				transform: scale(1);
 				transition: all 1s;
 			}
 
