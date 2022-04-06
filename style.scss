@@ -46,6 +46,7 @@ nav {
 			font-weight: bold;
 			font-size: 18px;
 			line-height: 22px;
+			cursor: pointer;
 		}
 
 		.active {
@@ -148,6 +149,7 @@ nav {
 	.items {
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 
 		.items__item {
 			display: flex;
@@ -203,16 +205,18 @@ nav {
 		.elements__elem {
 
 			img {
-				width: 95%;
+				width: 100%;
+				cursor: pointer;
 			}
 
 			img:hover {
-				width: 100%;
+				transform: scale(1.05);
 				transition: all 1s;
 			}
 
 			p {
 				padding: 45px 0 99px 0;
+				cursor: pointer;
 			}
 
 			.elem-text {
@@ -254,6 +258,7 @@ nav {
 			background: #070707;
 			padding: 13px 29px;
 			border-radius: 50px;
+			cursor: pointer;
 		}
 
 		.social {
@@ -267,6 +272,7 @@ nav {
 			a {
 				height: 40px;
 				width: 40px;
+				cursor: pointer;
 			}
 			
 			.instagramm {
@@ -322,7 +328,7 @@ nav {
 	width: 940px;
 }
 
-@media screen and (min-width: 375px) and (max-width: 600px){
+@media screen and (min-width: 375px) and (max-width: 600px) {
 	header {
 		display: none;
 	}
@@ -335,8 +341,9 @@ nav {
 			position: absolute;
 			width: 33px;
 			height: 19.19px;
-			left: 312px;
+			right: 30px;
 			top: 68px;
+			cursor: pointer;
 			
 		}
 
@@ -439,5 +446,13 @@ nav {
 		height: 100%;
 		margin: auto;
 		width: 316px;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px) {
+	.wrapper {
+		height: 100%;
+		margin: auto;
+		width: 580px;
 	}
 }

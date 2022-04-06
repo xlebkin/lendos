@@ -58,6 +58,7 @@ nav ul a {
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
+  cursor: pointer;
 }
 
 nav ul .active {
@@ -170,6 +171,8 @@ nav ul .active {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #Skills .items .items__item {
@@ -241,17 +244,20 @@ nav ul .active {
 }
 
 #Portfolio .elements .elements__elem img {
-  width: 95%;
+  width: 100%;
+  cursor: pointer;
 }
 
 #Portfolio .elements .elements__elem img:hover {
-  width: 100%;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
   -webkit-transition: all 1s;
   transition: all 1s;
 }
 
 #Portfolio .elements .elements__elem p {
   padding: 45px 0 99px 0;
+  cursor: pointer;
 }
 
 #Portfolio .elements .elements__elem .elem-text {
@@ -290,6 +296,7 @@ nav ul .active {
   background: #070707;
   padding: 13px 29px;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 #Contacts .info .social {
@@ -310,6 +317,7 @@ nav ul .active {
 #Contacts .info .social a {
   height: 40px;
   width: 40px;
+  cursor: pointer;
 }
 
 #Contacts .info .social .instagramm {
@@ -372,8 +380,9 @@ nav ul .active {
     position: absolute;
     width: 33px;
     height: 19.19px;
-    left: 312px;
+    right: 30px;
     top: 68px;
+    cursor: pointer;
   }
   #Home .profile {
     -webkit-box-orient: vertical;
@@ -447,6 +456,14 @@ nav ul .active {
     height: 100%;
     margin: auto;
     width: 316px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px) {
+  .wrapper {
+    height: 100%;
+    margin: auto;
+    width: 580px;
   }
 }
 /*# sourceMappingURL=style.css.map */
