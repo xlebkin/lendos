@@ -219,9 +219,29 @@ nav ul .active {
   margin-bottom: 0;
 }
 
+#Skills .items .items__item .stars .black {
+  -webkit-animation: stars  2s infinite;
+          animation: stars  2s infinite;
+}
+
+@-webkit-keyframes stars {
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@keyframes stars {
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
 #Skills .items .items__item .stars img {
   padding: 4.5px;
   width: 26px;
+  height: 26px;
 }
 
 #Portfolio {
