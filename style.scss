@@ -16,6 +16,17 @@ body {
 	color: #070707;
 }
 
+h2 {
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 42px;
+}
+
+p, a {
+	font-size: 18px;
+	line-height: 22px;
+}
+
 header {
 	position: sticky;
 	top:0%;
@@ -44,8 +55,6 @@ nav {
 		a {
 			color: #828282;
 			font-weight: bold;
-			font-size: 18px;
-			line-height: 22px;
 			cursor: pointer;
 		}
 
@@ -55,35 +64,30 @@ nav {
 	}
 }
 
-#Home {
+.Home {
 	margin-top: 20px;
 
-	.burger {
+	.Home__burger {
 		display: none;
 	}
 
-	.profile {
+	.Home__profile {
 		display: flex;
 		justify-content: space-between;
 		align-items: end;
 
-		.profile__name {
+		.Home__profile__name {
 			font-weight: bold;
 			font-size: 47px;
 			line-height: 58px;
 			translate: 0 13px;
 		}
 
-		.profile__info {
-			font-size: 18px;
-			line-height: 22px;
-		}
-
 		span {
 			color: #828282;
 		}
 
-		.profile__leng {
+		.Home__profile__leng {
 			transform: rotate(-90deg) translateY(26px) translateX(25px);
 			font-weight: bold;
 			font-size: 16px;
@@ -101,7 +105,7 @@ nav {
 }
 
 
-#About-me {
+.About-me {
 	margin-top: 104px;
 	background: rgb(173,42,210);
 	background: linear-gradient(180deg, rgba(173,42,210,0.5508403190377713) 40%, rgba(0,212,255,0) 100%);
@@ -110,57 +114,41 @@ nav {
 	background-size: 100% 0%;
 	background-repeat: no-repeat;
 
-	.About {
+	.About-me__About {
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
 		text-align: center;
 		padding: 120px 0 107px 0;
 
-		h2 {
-			font-size: 34px;
-			line-height: 42px;
-			font-weight: bold;
-		}
-
 		p {
-			font-size: 18px;
-			line-height: 22px;
 			margin-top: 20px;
 			margin-bottom: 20px;
 		}
 	}
 }
 
-#About-me:hover {
+.About-me:hover {
 	background-size: 100% 100%;
 }
 
 #Skills {
 
-	.opportunities {
+	.Skills__opportunities {
 		text-align: center;
 		padding-top: 91px;
 
-		h2 {
-			font-size: 34px;
-			line-height: 42px;
-			font-weight: bold;
-		}
-
 		p {
-			font-size: 18px;
-			line-height: 22px;
 			padding: 69px 0 83px 0;
 		}
 	}
 
-	.items {
+	.Skills__items {
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
 
-		.items__item {
+		.Skills__items__item {
 			display: flex;
 			justify-content: space-between;
 			flex-direction: column;
@@ -203,28 +191,22 @@ nav {
 	}
 }
 
-#Portfolio {
+.Portfolio {
 	margin-top: 110px;
 	background-color: #F6F6F6;
 
-	.opportunities {
+	.Portfolio__opportunities {
 		text-align: center;
 		padding: 112px 0 47px 0;
-
-		h2 {
-			font-weight: bold;
-			font-size: 34px;
-			line-height: 42px;
-		}
 	}
 
-	.elements {
+	.Portfolio__elements {
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
 		text-align: center;
 
-		.elements__elem {
+		.Portfolio__elements__elem {
 
 			img {
 				width: 100%;
@@ -259,28 +241,21 @@ nav {
 
 #Contacts {
 
-	.info {
+	.Contacts__info {
 		text-align: center;
 		padding: 114px 0 123px 0;
 
 		h2 {
-			font-weight: bold;
-			font-size: 34px;
-			line-height: 42px;
 			padding-bottom: 20px;
 		}
 
 		p {
-			font-weight: 500;
-			font-size: 18px;
-			line-height: 22px;
+			font-weight: 400;
 			padding-bottom: 29px;
 		}
 
 		.btn {
 			font-weight: bold;
-			font-size: 18px;
-			line-height: 22px;
 			color: #FFFFFF;
 			background: #070707;
 			padding: 13px 29px;
@@ -288,7 +263,7 @@ nav {
 			cursor: pointer;
 		}
 
-		.social {
+		.Contacts__social {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
@@ -337,7 +312,7 @@ nav {
 			
 		}
 
-		.wish {
+		.Contacts__wish {
 			color: #828282;
 
 			p {
@@ -411,36 +386,36 @@ nav {
 		}
 	}
 	
-	#Skills {
+	.Skills {
 		margin-top: 83px;
 		margin-bottom: 17px;
 
-		.opportunities {
+		.Skills__opportunities {
 			
 			p {
 				padding: 50px 0 71px 0;
 			}
 		}
 
-		.items {
+		.Skills__items {
 			flex-flow: column wrap;
 
-			.items__item {
+			.Skills__items__item {
 				padding-bottom: 81px;
 			}
 		}
 	}
 
-	#Portfolio {
+	.Portfolio {
 		margin: 81px 0 3px;
 
-		.opportunities {
+		.Portfolio__opportunities {
 			padding-bottom: 65px;
 		}
 
-		.elements {
+		.Portfolio__elements {
 	
-			.elements__elem {
+			.Portfolio__elements__elem {
 	
 				p {
 					padding: 33px 0 78px 0;
@@ -449,10 +424,10 @@ nav {
 		}	
 	}
 
-	#Contacts {
+	.Contacts {
 		margin: 82px 0 90px;
 
-		.info {
+		.Contacts__info {
 
 			p {
 				padding: 27px 0 40px;
@@ -463,7 +438,7 @@ nav {
 				border-radius: 50px;
 			}
 
-			.social {
+			.Contacts__social {
 				width: 315px;
 			}
 		}	

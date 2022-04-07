@@ -17,6 +17,17 @@ body {
   color: #070707;
 }
 
+h2 {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+p, a {
+  font-size: 18px;
+  line-height: 22px;
+}
+
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -56,8 +67,6 @@ nav ul {
 nav ul a {
   color: #828282;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
   cursor: pointer;
 }
 
@@ -65,15 +74,15 @@ nav ul .active {
   color: black;
 }
 
-#Home {
+.Home {
   margin-top: 20px;
 }
 
-#Home .burger {
+.Home .Home__burger {
   display: none;
 }
 
-#Home .profile {
+.Home .Home__profile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,23 +94,18 @@ nav ul .active {
           align-items: end;
 }
 
-#Home .profile .profile__name {
+.Home .Home__profile .Home__profile__name {
   font-weight: bold;
   font-size: 47px;
   line-height: 58px;
   translate: 0 13px;
 }
 
-#Home .profile .profile__info {
-  font-size: 18px;
-  line-height: 22px;
-}
-
-#Home .profile span {
+.Home .Home__profile span {
   color: #828282;
 }
 
-#Home .profile .profile__leng {
+.Home .Home__profile .Home__profile__leng {
   -webkit-transform: rotate(-90deg) translateY(26px) translateX(25px);
           transform: rotate(-90deg) translateY(26px) translateX(25px);
   font-weight: bold;
@@ -109,12 +113,12 @@ nav ul .active {
   line-height: 20px;
 }
 
-#Home picture img {
+.Home picture img {
   padding-top: 50px;
   width: 100%;
 }
 
-#About-me {
+.About-me {
   margin-top: 104px;
   background: #ad2ad2;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, rgba(173, 42, 210, 0.55084)), to(rgba(0, 212, 255, 0)));
@@ -126,7 +130,7 @@ nav ul .active {
   background-repeat: no-repeat;
 }
 
-#About-me .About {
+.About-me .About-me__About {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,41 +145,25 @@ nav ul .active {
   padding: 120px 0 107px 0;
 }
 
-#About-me .About h2 {
-  font-size: 34px;
-  line-height: 42px;
-  font-weight: bold;
-}
-
-#About-me .About p {
-  font-size: 18px;
-  line-height: 22px;
+.About-me .About-me__About p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-#About-me:hover {
+.About-me:hover {
   background-size: 100% 100%;
 }
 
-#Skills .opportunities {
+#Skills .Skills__opportunities {
   text-align: center;
   padding-top: 91px;
 }
 
-#Skills .opportunities h2 {
-  font-size: 34px;
-  line-height: 42px;
-  font-weight: bold;
-}
-
-#Skills .opportunities p {
-  font-size: 18px;
-  line-height: 22px;
+#Skills .Skills__opportunities p {
   padding: 69px 0 83px 0;
 }
 
-#Skills .items {
+#Skills .Skills__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,7 +174,7 @@ nav ul .active {
       flex-wrap: wrap;
 }
 
-#Skills .items .items__item {
+#Skills .Skills__items .Skills__items__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -202,12 +190,12 @@ nav ul .active {
           align-items: center;
 }
 
-#Skills .items .items__item img {
+#Skills .Skills__items .Skills__items__item img {
   max-height: 89px;
   max-width: 89px;
 }
 
-#Skills .items .items__item p {
+#Skills .Skills__items .Skills__items__item p {
   padding: 24px 0 40px 0;
   font-size: 14px;
   line-height: 17px;
@@ -215,11 +203,11 @@ nav ul .active {
   color: #828282;
 }
 
-#Skills .items .items__item .stars {
+#Skills .Skills__items .Skills__items__item .stars {
   margin-bottom: 0;
 }
 
-#Skills .items .items__item .stars .black {
+#Skills .Skills__items .Skills__items__item .stars .black {
   -webkit-animation: stars  2s infinite;
           animation: stars  2s infinite;
 }
@@ -238,29 +226,23 @@ nav ul .active {
   }
 }
 
-#Skills .items .items__item .stars img {
+#Skills .Skills__items .Skills__items__item .stars img {
   padding: 4.5px;
   width: 26px;
   height: 26px;
 }
 
-#Portfolio {
+.Portfolio {
   margin-top: 110px;
   background-color: #F6F6F6;
 }
 
-#Portfolio .opportunities {
+.Portfolio .Portfolio__opportunities {
   text-align: center;
   padding: 112px 0 47px 0;
 }
 
-#Portfolio .opportunities h2 {
-  font-weight: bold;
-  font-size: 34px;
-  line-height: 42px;
-}
-
-#Portfolio .elements {
+.Portfolio .Portfolio__elements {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,31 +256,31 @@ nav ul .active {
   text-align: center;
 }
 
-#Portfolio .elements .elements__elem img {
+.Portfolio .Portfolio__elements .Portfolio__elements__elem img {
   width: 100%;
   cursor: pointer;
 }
 
-#Portfolio .elements .elements__elem img:hover {
+.Portfolio .Portfolio__elements .Portfolio__elements__elem img:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-transition: all 1s;
   transition: all 1s;
 }
 
-#Portfolio .elements .elements__elem img:not(:hover) {
+.Portfolio .Portfolio__elements .Portfolio__elements__elem img:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 1s;
   transition: all 1s;
 }
 
-#Portfolio .elements .elements__elem p {
+.Portfolio .Portfolio__elements .Portfolio__elements__elem p {
   padding: 45px 0 99px 0;
   cursor: pointer;
 }
 
-#Portfolio .elements .elements__elem .elem-text {
+.Portfolio .Portfolio__elements .Portfolio__elements__elem .elem-text {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
@@ -307,29 +289,22 @@ nav ul .active {
   color: #070707;
 }
 
-#Contacts .info {
+#Contacts .Contacts__info {
   text-align: center;
   padding: 114px 0 123px 0;
 }
 
-#Contacts .info h2 {
-  font-weight: bold;
-  font-size: 34px;
-  line-height: 42px;
+#Contacts .Contacts__info h2 {
   padding-bottom: 20px;
 }
 
-#Contacts .info p {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
+#Contacts .Contacts__info p {
+  font-weight: 400;
   padding-bottom: 29px;
 }
 
-#Contacts .info .btn {
+#Contacts .Contacts__info .btn {
   font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
   color: #FFFFFF;
   background: #070707;
   padding: 13px 29px;
@@ -337,7 +312,7 @@ nav ul .active {
   cursor: pointer;
 }
 
-#Contacts .info .social {
+#Contacts .Contacts__info .Contacts__social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -352,49 +327,49 @@ nav ul .active {
   padding: 85px 0 45px 0;
 }
 
-#Contacts .info .social a {
+#Contacts .Contacts__info .Contacts__social a {
   height: 40px;
   width: 40px;
   cursor: pointer;
 }
 
-#Contacts .info .social .instagramm {
+#Contacts .Contacts__info .Contacts__social .instagramm {
   background: url(img/instagramm.svg) center no-repeat;
 }
 
-#Contacts .info .social .instagramm:hover {
+#Contacts .Contacts__info .Contacts__social .instagramm:hover {
   background: url(img/instagramm-color.svg) center no-repeat;
 }
 
-#Contacts .info .social .telegramm {
+#Contacts .Contacts__info .Contacts__social .telegramm {
   background: url(img/telegramm.svg) center no-repeat;
 }
 
-#Contacts .info .social .telegramm:hover {
+#Contacts .Contacts__info .Contacts__social .telegramm:hover {
   background: url(img/telegramm-color.svg) center no-repeat;
 }
 
-#Contacts .info .social .vk {
+#Contacts .Contacts__info .Contacts__social .vk {
   background: url(img/vk.svg) center no-repeat;
 }
 
-#Contacts .info .social .vk:hover {
+#Contacts .Contacts__info .Contacts__social .vk:hover {
   background: url(img/vk-color.svg) center no-repeat;
 }
 
-#Contacts .info .social .discord {
+#Contacts .Contacts__info .Contacts__social .discord {
   background: url(img/discord.svg) center no-repeat;
 }
 
-#Contacts .info .social .discord:hover {
+#Contacts .Contacts__info .Contacts__social .discord:hover {
   background: url(img/discord-color.svg) center no-repeat;
 }
 
-#Contacts .info .wish {
+#Contacts .Contacts__info .Contacts__wish {
   color: #828282;
 }
 
-#Contacts .info .wish p {
+#Contacts .Contacts__info .Contacts__wish p {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -452,42 +427,42 @@ nav ul .active {
   #About-me .About p br {
     display: none;
   }
-  #Skills {
+  .Skills {
     margin-top: 83px;
     margin-bottom: 17px;
   }
-  #Skills .opportunities p {
+  .Skills .Skills__opportunities p {
     padding: 50px 0 71px 0;
   }
-  #Skills .items {
+  .Skills .Skills__items {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
   }
-  #Skills .items .items__item {
+  .Skills .Skills__items .Skills__items__item {
     padding-bottom: 81px;
   }
-  #Portfolio {
+  .Portfolio {
     margin: 81px 0 3px;
   }
-  #Portfolio .opportunities {
+  .Portfolio .Portfolio__opportunities {
     padding-bottom: 65px;
   }
-  #Portfolio .elements .elements__elem p {
+  .Portfolio .Portfolio__elements .Portfolio__elements__elem p {
     padding: 33px 0 78px 0;
   }
-  #Contacts {
+  .Contacts {
     margin: 82px 0 90px;
   }
-  #Contacts .info p {
+  .Contacts .Contacts__info p {
     padding: 27px 0 40px;
   }
-  #Contacts .info .btn {
+  .Contacts .Contacts__info .btn {
     padding: 10px 85px;
     border-radius: 50px;
   }
-  #Contacts .info .social {
+  .Contacts .Contacts__info .Contacts__social {
     width: 315px;
   }
   .wrapper {
