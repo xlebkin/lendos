@@ -1,3 +1,4 @@
+// default
 *, *:before, *:after {
 	padding: 0;
 	margin: 0;
@@ -26,6 +27,8 @@ p, a {
 	font-size: 18px;
 	line-height: 22px;
 }
+
+// Header
 
 header {
 	position: sticky;
@@ -63,6 +66,8 @@ nav {
 		}
 	}
 }
+
+// Home
 
 .Home {
 	margin-top: 20px;
@@ -104,6 +109,7 @@ nav {
 	}
 }
 
+// About-me
 
 .About-me {
 	margin-top: 104px;
@@ -131,6 +137,8 @@ nav {
 .About-me:hover {
 	background-size: 100% 100%;
 }
+
+// Skills
 
 #Skills {
 
@@ -191,6 +199,8 @@ nav {
 	}
 }
 
+// Portfolio
+
 .Portfolio {
 	margin-top: 110px;
 	background-color: #F6F6F6;
@@ -238,6 +248,8 @@ nav {
 		}
 	}
 }
+
+// Contacts
 
 #Contacts {
 
@@ -330,10 +342,17 @@ nav {
 	width: 940px;
 }
 
+// media 375-600
+
 @media screen and (min-width: 375px) and (max-width: 600px) {
+	
+	// media 375-600 Header
+
 	header {
 		display: none;
 	}
+
+	// media 375-600 Home
 
 	#Home {
 		margin-top: 64px;
@@ -370,6 +389,8 @@ nav {
 		}
 	}
 
+	// media 375-600 About-me
+
 	#About-me {
 		margin-top: 83px;
 
@@ -385,6 +406,8 @@ nav {
 			}
 		}
 	}
+
+	// media 375-600 Skills
 	
 	.Skills {
 		margin-top: 83px;
@@ -406,6 +429,8 @@ nav {
 		}
 	}
 
+	// media 375-600 Portfolio
+
 	.Portfolio {
 		margin: 81px 0 3px;
 
@@ -423,6 +448,8 @@ nav {
 			}
 		}	
 	}
+
+	// media 375-600 Contacts
 
 	.Contacts {
 		margin: 82px 0 90px;
@@ -450,6 +477,8 @@ nav {
 		width: 316px;
 	}
 }
+
+// media 600-950px
 
 @media screen and (min-width: 600px) and (max-width: 950px) {
 	.wrapper {
