@@ -1,0 +1,97 @@
+#Skills .opportunities {
+  text-align: center;
+  padding-top: 91px;
+}
+
+#Skills .opportunities p {
+  padding: 69px 0 83px 0;
+}
+
+#Skills .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#Skills .items .items__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Skills .items .items__item img {
+  max-height: 89px;
+  max-width: 89px;
+}
+
+#Skills .items .items__item p {
+  padding: 24px 0 40px 0;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+  color: #828282;
+}
+
+#Skills .items .items__item .stars {
+  margin-bottom: 0;
+}
+
+#Skills .items .items__item .stars .black {
+  -webkit-animation: stars  2s infinite;
+          animation: stars  2s infinite;
+}
+
+@-webkit-keyframes stars {
+  100% {
+    -webkit-transform: rotateY(-360deg);
+            transform: rotateY(-360deg);
+  }
+}
+
+@keyframes stars {
+  100% {
+    -webkit-transform: rotateY(-360deg);
+            transform: rotateY(-360deg);
+  }
+}
+
+#Skills .items .items__item .stars img {
+  padding: 4.5px;
+  width: 26px;
+  height: 26px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+  .Skills {
+    margin-top: 83px;
+    margin-bottom: 17px;
+  }
+  .Skills .opportunities p {
+    padding: 50px 0 71px 0;
+  }
+  .Skills .items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .Skills .items .items__item {
+    padding-bottom: 81px;
+  }
+}
+/*# sourceMappingURL=Skills.css.map */

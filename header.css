@@ -1,0 +1,101 @@
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  font-family: "Gilroy";
+  text-decoration: none;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: default;
+}
+
+html {
+  scroll-padding-top: 88px;
+}
+
+body {
+  color: #070707;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+p, a {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+  height: 88px;
+  width: 100%;
+  background-color: #ffff;
+  z-index: 99;
+}
+
+nav hr {
+  color: #828282;
+  height: 1px;
+  background-color: #828282;
+  border: none;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+nav ul {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul a {
+  color: #828282;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav ul .active {
+  color: black;
+}
+
+.wrapper {
+  height: 100%;
+  margin: auto;
+  width: 940px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+  header {
+    display: none;
+  }
+  .wrapper {
+    height: 100%;
+    margin: auto;
+    width: 316px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px) {
+  .wrapper {
+    height: 100%;
+    margin: auto;
+    width: 580px;
+  }
+}
+/*# sourceMappingURL=header.css.map */

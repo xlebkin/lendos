@@ -1,0 +1,69 @@
+.Portfolio {
+  margin-top: 110px;
+  background-color: #F6F6F6;
+}
+
+.Portfolio .opportunities {
+  text-align: center;
+  padding: 112px 0 47px 0;
+}
+
+.Portfolio .elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.Portfolio .elements .elements__elem img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.Portfolio .elements .elements__elem img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.Portfolio .elements .elements__elem img:not(:hover) {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.Portfolio .elements .elements__elem p {
+  padding: 45px 0 99px 0;
+  cursor: pointer;
+}
+
+.Portfolio .elements .elements__elem .elem-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #070707;
+}
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+  .Portfolio {
+    margin: 81px 0 3px;
+  }
+  .Portfolio .opportunities {
+    padding-bottom: 65px;
+  }
+  .Portfolio .elements .elements__elem p {
+    padding: 33px 0 78px 0;
+  }
+}
+/*# sourceMappingURL=Portfolio.css.map */

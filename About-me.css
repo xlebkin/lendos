@@ -1,0 +1,51 @@
+.About-me {
+  margin-top: 104px;
+  background: #ad2ad2;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, rgba(173, 42, 210, 0.55084)), to(rgba(0, 212, 255, 0)));
+  background: linear-gradient(180deg, rgba(173, 42, 210, 0.55084) 40%, rgba(0, 212, 255, 0) 100%);
+  -webkit-transition: 3s ease-in;
+  transition: 3s ease-in;
+  background-color: #F6F6F6;
+  background-size: 100% 0%;
+  background-repeat: no-repeat;
+}
+
+.About-me .About {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 120px 0 107px 0;
+}
+
+.About-me .About p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.About-me:hover {
+  background-size: 100% 100%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+  #About-me {
+    margin-top: 83px;
+  }
+  #About-me .About {
+    padding: 81px 0 76px 0;
+  }
+  #About-me .About p {
+    word-break: inherit;
+  }
+  #About-me .About p br {
+    display: none;
+  }
+}
+/*# sourceMappingURL=About-me.css.map */

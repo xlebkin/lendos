@@ -1,0 +1,108 @@
+// Contacts
+
+#Contacts {
+
+	.info {
+		text-align: center;
+		padding: 114px 0 123px 0;
+
+		h2 {
+			padding-bottom: 20px;
+		}
+
+		p {
+			font-weight: 400;
+			padding-bottom: 29px;
+		}
+
+		.btn {
+			font-weight: bold;
+			color: #FFFFFF;
+			background: #070707;
+			padding: 13px 29px;
+			border-radius: 50px;
+			cursor: pointer;
+		}
+
+		.social {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 342px;
+			margin: auto;
+			padding: 85px 0 45px 0;
+
+			a {
+				height: 40px;
+				width: 40px;
+				cursor: pointer;
+			}
+			
+			.instagramm {
+				background: url(img/instagramm.svg) center no-repeat;
+
+			}
+
+			.instagramm:hover {
+				background: url(img/instagramm-color.svg) center no-repeat;
+			}
+
+			.telegramm {
+				background: url(img/telegramm.svg) center no-repeat;
+			}
+
+			.telegramm:hover {
+				background: url(img/telegramm-color.svg) center no-repeat;
+			}
+
+			.vk {
+				background: url(img/vk.svg) center no-repeat;
+			}
+
+			.vk:hover {
+				background: url(img/vk-color.svg) center no-repeat;
+			}
+
+			.discord {
+				background: url(img/discord.svg) center no-repeat;
+			}
+
+			.discord:hover {
+				background: url(img/discord-color.svg) center no-repeat;
+			}
+			
+		}
+
+		.wish {
+			color: #828282;
+
+			p {
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 17px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+    .Contacts {
+		margin: 82px 0 90px;
+
+		.info {
+
+			p {
+				padding: 27px 0 40px;
+			}
+
+			.btn {
+				padding: 10px 85px;
+				border-radius: 50px;
+			}
+
+			.social {
+				width: 315px;
+			}
+		}	
+	}
+}
