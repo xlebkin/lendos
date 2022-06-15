@@ -7,18 +7,43 @@
   padding-bottom: 20px;
 }
 
-#Contacts .info p {
-  font-weight: 400;
-  padding-bottom: 29px;
+#Contacts .info .contact-section {
+  margin-top: 25px;
 }
 
-#Contacts .info .btn {
+#Contacts .info .contact-section h3 {
+  margin-bottom: 25px;
+}
+
+#Contacts .info .contact-section input {
+  height: 44px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  margin-left: -30px;
+}
+
+#Contacts .info .contact-section textarea {
+  height: 90px;
+  resize: none;
+  border-radius: 20px;
+  padding: 5px 0 0 15px;
+}
+
+#Contacts .info .contact-section .btn {
+  margin-top: 20px;
   font-weight: bold;
   color: #FFFFFF;
   background: #070707;
   padding: 13px 29px;
   border-radius: 50px;
   cursor: pointer;
+}
+
+#Contacts .info .contact-section .btn:hover {
+  background-color: #FFFFFF;
+  color: #070707;
+  border: 1px solid #070707;
 }
 
 #Contacts .info .social {
@@ -43,35 +68,35 @@
 }
 
 #Contacts .info .social .instagramm {
-  background: url(img/instagramm.svg) center no-repeat;
+  background: url(../img/instagramm.svg) center no-repeat;
 }
 
 #Contacts .info .social .instagramm:hover {
-  background: url(img/instagramm-color.svg) center no-repeat;
+  background: url(../img/instagramm-color.svg) center no-repeat;
 }
 
 #Contacts .info .social .telegramm {
-  background: url(img/telegramm.svg) center no-repeat;
+  background: url(../img/telegramm.svg) center no-repeat;
 }
 
 #Contacts .info .social .telegramm:hover {
-  background: url(img/telegramm-color.svg) center no-repeat;
+  background: url(../img/telegramm-color.svg) center no-repeat;
 }
 
 #Contacts .info .social .vk {
-  background: url(img/vk.svg) center no-repeat;
+  background: url(../img/vk.svg) center no-repeat;
 }
 
 #Contacts .info .social .vk:hover {
-  background: url(img/vk-color.svg) center no-repeat;
+  background: url(../img/vk-color.svg) center no-repeat;
 }
 
 #Contacts .info .social .discord {
-  background: url(img/discord.svg) center no-repeat;
+  background: url(../img/discord.svg) center no-repeat;
 }
 
 #Contacts .info .social .discord:hover {
-  background: url(img/discord-color.svg) center no-repeat;
+  background: url(../img/discord-color.svg) center no-repeat;
 }
 
 #Contacts .info .wish {

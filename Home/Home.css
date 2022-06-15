@@ -1,5 +1,5 @@
 .Home {
-  margin-top: 20px;
+  padding-top: 108px;
 }
 
 .Home .burger {
@@ -44,7 +44,7 @@
 
 @media screen and (min-width: 375px) and (max-width: 600px) {
   #Home {
-    margin-top: 64px;
+    padding-top: 64px;
   }
   #Home .burger {
     display: block;
